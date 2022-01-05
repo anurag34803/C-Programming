@@ -14,5 +14,9 @@ void main()
         scanf("%d",&array[i]);
     }
 
-    
+    for(int i=0; i<size; i++)                          // print values of arrays
+    {
+        printf("%d " ,array[i]);
+    }
+
 }
